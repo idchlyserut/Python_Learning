@@ -1,4 +1,8 @@
+"""
 
+Needs to be run in Processing tho ._.
+
+"""
 def readFile(a):
    with open(a) as f:
     res = [[x for x in ln.split()] for ln in f];
